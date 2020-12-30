@@ -7,7 +7,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
     <body>
-       <ul>
+       <ul class="menu">
         <li class="links"><a href="#Grid Gallery"></a>Grid Gallery</li>
         <li class="links"><a href="#Slideshow Gallery">Slideshow Gallery</a></li>
         </ul>
@@ -20,8 +20,9 @@
             <img src="rw.jpg">
             <img src="ad.jpg">
             </span>
-       <img src="v.jpg">
-            <span> 
+       
+            <span>
+                <img src="v.jpg">
            <img src="ootp.jpg">
             <img src="malfoy-family.jpg">
             <img src="da.jpg">
@@ -34,7 +35,18 @@
         
         <section id="Slideshow Gallery">
         <h1> Slideshow Gallery </h1></section>
+        
         <div id="myCarousel" class="carousel slide" >
+            <ol class=" carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+        </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
